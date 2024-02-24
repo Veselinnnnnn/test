@@ -11,6 +11,15 @@
         "ignoreVary": true
       },
       "urls": [],
+      "resources": {
+        "files": [
+          "/test/favicon.ico",
+          "/**/*.html",
+          "/test/manifest.webmanifest",
+          "/test/*.css",
+          "/test/*.js"
+        ]
+      },
       "patterns": []
     },
     {
@@ -19,6 +28,12 @@
       "updateMode": "prefetch",
       "cacheQueryOptions": {
         "ignoreVary": true
+      },
+      "resources": {
+        "files": [
+          "/test/assets/**",
+          "/test/media/*.(svg|cur|jpg|jpeg|png|apng|webp|avif|gif|otf|ttf|woff|woff2)"
+        ]
       },
       "urls": [],
       "patterns": []
