@@ -13,11 +13,11 @@
       "urls": [],
       "resources": {
         "files": [
-          "/test/favicon.ico",
+          "/favicon.ico",
           "/**/*.html",
-          "/test/manifest.webmanifest",
-          "/test/*.css",
-          "/test/*.js"
+          "/manifest.webmanifest",
+          "/*.css",
+          "/*.js"
         ]
       },
       "patterns": []
@@ -31,8 +31,8 @@
       },
       "resources": {
         "files": [
-          "/test/assets/**",
-          "/test/media/*.(svg|cur|jpg|jpeg|png|apng|webp|avif|gif|otf|ttf|woff|woff2)"
+          "/assets/**",
+          "/media/*.(svg|cur|jpg|jpeg|png|apng|webp|avif|gif|otf|ttf|woff|woff2)"
         ]
       },
       "urls": [],
